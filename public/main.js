@@ -1,6 +1,6 @@
 const button = document.querySelector('button')
 
-button.addEventListener('click', sage())
+button.addEventListener('click', sage)
 function sage(){
     alert('Store coming soon! Sage is currently taste testing');
 }
@@ -11,4 +11,4 @@ try {
     // expected output: ReferenceError: nonExistentFunction is not defined
     // Note - error messages will vary depending on browser
   }
-  fg
+  
