@@ -2,7 +2,7 @@ const button = document.querySelector('button')
 
 button.addEventListener('click', sage())
 function sage(){
-    alert('Store coming soon! Sage is currently taste testing')
+    alert('Store coming soon! Sage is currently taste testing');
 }
 try {
     nonExistentFunction();
